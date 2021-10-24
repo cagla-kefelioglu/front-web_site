@@ -1,0 +1,271 @@
+﻿*{
+      box-sizing: border-box; /*resimlere border veya padding eklendiğinde resmin boyutunu sabit tutar.*/
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*sayfanın solda ve üstte boşlukları siler*/
+
+    background-color: darkgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+#social{
+    background-color: #dbdbdb;
+    color:black;
+    height:55px;
+    width:100%;/*tüm genişliği kaplar*/
+    position:sticky;
+    top:0; /*position ve top sayesinde barın sabit kalması sağlanır.top yukarı sabitler.*/
+    z-index:1;
+    font-size:18px;
+    text-align: right;/*yazıları ortalar*/
+    padding:15px;/*iç boşluk*/
+}
+#fps{
+
+    float:left;
+    letter-spacing:2px;
+}
+
+span{
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+#social>i{
+    margin-right:15px;
+}
+
+#social>i:hover{
+    /*mause ile üzerine gelince değişiklik sağlar.*/
+
+    opacity:0.8;
+
+
+}
+
+#container{
+
+    width:80%;
+    margin:auto;
+    height:auto;
+
+}
+header {
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);/*gölge verir*/
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    position:relative;
+    margin-bottom:5px;
+}
+
+#headerimg{
+    width:100%;
+    height:450px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+
+}
+
+section {
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: #dbdbdb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+    margin-top:15px;
+    overflow:auto;
+}
+
+nav{
+
+    width:50%;
+    float:left;
+    margin:10px;
+    height:auto;
+
+}
+nav ul{
+    width:auto;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+ nav li{
+     list-style-type:none;/*listede başındaki noktaları kaldırır.*/
+
+ }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        text-decoration: none; /*linklerin altındaki çizgiyi kaldırır.*/
+        color: black;
+        border-bottom: 1px solid #2fc3f0;
+        padding-left:20px;
+        display:block;
+    }
+
+    nav li a:hover{
+        color:darkblue;
+        background-color: #3f91ec;
+    }
+i{
+    margin-right:10px;
+}
+main{
+    float:left;
+    height:auto;
+    width:90%;
+    padding:10px;
+}
+.icerik {
+    width: 48%;
+    height: auto;
+    display: inline-block; /*aynı satırda blok özelliği taşır*/
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+    margin-bottom: 15px;
+
+}
+.rsm {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: opacity;
+}
+.rsm:hover{
+    opacity:0.6;
+
+}
+
+div a{color:black;}
+h5{
+    margin:10px;
+    color:black;
+
+}
+.p{
+    margin:10px;
+}
+.btnDevam:hover{
+    opacity:0.8;
+}
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: gainsboro;
+    color:#dbdbdb;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+}
+.valorantimg{
+    width:700px;
+    height:350px;
+    border-radius:10px;
+
+}
+.csimg {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+ iframe{
+     width:98%;
+     height:350px;
+     border-radius:10px;
+     margin-top:10px;
+     margin-left:10px;
+ }
+ .csimg{
+     margin:10px;
+ }
+ .section1{
+     width:98%;
+     height:auto;
+     margin:auto;
+     margin-top:10px;
+     background-color:#f2f2f2;
+ }
+label{
+     color:black;
+     padding:12px 12px 12px 0;
+     display:inline-block;
+ }
+ .form{
+     width:49%;
+     float:left;
+     height:380px;
+
+     padding:10px;
+     margin-right:10px;
+
+ }
+ .col25{
+     width:25%;
+     float:left;
+     margin:6px;
+
+
+ }
+.col75 {
+    width: 75%;
+    float: left;
+    margin: 6px;
+
+}
+input [type=text],textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+
+}
+.row:after{
+     content:"";
+     clear:both;
+     display:block;
+
+}
+input[type=submit]{
+
+    background-color: #4CAF50;
+    color:black;
+    padding:12px 20px;
+    border:none;
+    border-radius:4px;
+    float:right;
+}
+.adres {
+    width: 49%;
+    float: left;
+    height: 380px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.id2{
+    color:black;
+}
+.span1{
+    color:black;
+}
+.bzkmz{
+    margin:10px;
+}
+footer {
+    color: black;
+}
+#ad{
+  height: auto;
+}
